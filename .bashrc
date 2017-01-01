@@ -11,7 +11,7 @@ fi
 # User specific aliases and functions
 #export GTEST_ROOT=/usr
 export GTEST_ROOT=/home/tom/Projects/googletest/release/
-export PS1="\u@\h <-\033[0;36m\]\w\033[0;37m\]-> "
+export PS1="\u@\h <-\[\033[0;36m\]\w\[\033[0;37m\]-> "
 
 alias vi='vim'
 alias ll='ls -lart'
