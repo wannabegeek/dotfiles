@@ -20,8 +20,3 @@ alias psg='ps aux | grep -v grep | grep '
 alias j='jobs'
 alias h='history'
 
-which neofetch &> /dev/null
-if [ $? -eq 0 ]; then
-    neofetch --disable packages
-    echo
-fi
