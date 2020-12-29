@@ -12,6 +12,7 @@ fi
 #export GTEST_ROOT=/usr
 export GTEST_ROOT=${HOME}/Projects/googletest/release/
 export PS1="\u@\h <-\[\033[0;36m\]\w\[\033[0;37m\]-> "
+export EDITOR=vim
 
 alias vi='vim'
 alias ll='ls -lart'
